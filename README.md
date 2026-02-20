@@ -12,13 +12,13 @@
 
 登陆 GitHub 用户名
  `git config --global user.name "John Doe"`
- 
+
  查看当前用户名
  `git config --global user.name`
- 
+
  登陆 GitHub 的邮箱
  `git config --global user.email [johndoe@example.com](mailto:johndoe@example.com)`
- 
+
  查看当前邮箱
  `git config --global user.email`
 
@@ -31,6 +31,18 @@
 `-m`：直接写提交说明（message）。
 
 **备注**：“添加评论”通常指写好 commit message，让别人知道你改了什么。
+
+### 查看提交记录日志
+
+`git log`
+
+### 查看历史git操作
+
+`git reflog`
+
+### 回退历史版本
+
+`git reset --hard + 哈希值`
 
 ### 推送并建立上游关联
 
