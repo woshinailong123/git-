@@ -12,10 +12,13 @@
 
 登陆 GitHub 用户名
  `git config --global user.name "John Doe"`
+ 
  查看当前用户名
  `git config --global user.name`
+ 
  登陆 GitHub 的邮箱
  `git config --global user.email [johndoe@example.com](mailto:johndoe@example.com)`
+ 
  查看当前邮箱
  `git config --global user.email`
 
@@ -120,5 +123,6 @@
 **和 pull 的区别**
 
 `fetch`：只下载 + 更新远端引用，不改你当前分支代码
+
 
 `pull`：= `fetch` + `merge`（或 rebase），会改动你当前分支
